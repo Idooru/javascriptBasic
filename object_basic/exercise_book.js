@@ -92,33 +92,45 @@
 
 // relationship2.logFriends();
 
-class Human {
-    constructor(type = "human") {
-        this.type = type;
-    }
+// class Human {
+//     constructor(type = "human") {
+//         this.type = type;
+//     }
 
-    static isHuman(human) {
-        return human instanceof Human;
-    }
+//     static isHuman(human) {
+//         return human instanceof Human;
+//     }
 
-    breathe() {
-        console.log("h-a-a-a-m");
-    }
-}
+//     breathe() {
+//         console.log("h-a-a-a-m");
+//     }
+// }
 
-class Zero extends Human {
-    constructor(type, firstName, lastName) {
-        super(type);
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
+// class Zero extends Human {
+//     constructor(type, firstName, lastName) {
+//         super(type);
+//         this.firstName = firstName;
+//         this.lastName = lastName;
+//     }
 
-    sayName() {
-        super.breathe();
-        console.log(`${this.firstName} ${this.lastName}`);
-    }
-}
+//     sayName() {
+//         super.breathe();
+//         console.log(`${this.firstName} ${this.lastName}`);
+//     }
+// }
 
-const newZero = new Zero("human", "zero", "cho");
-console.log(Human.isHuman(newZero));
-newZero.sayName();
+// const newZero = new Zero("human", "zero", "cho");
+// console.log(Human.isHuman(newZero));
+// newZero.sayName();
+
+// const key_name = "name";
+// const key_age = "age";
+
+// const user = {
+//     [key_name]: "John",
+//     [key_age]: 30,
+// };
+
+// user.sex = "Man";
+
+// console.log(user);
